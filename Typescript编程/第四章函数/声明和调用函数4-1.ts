@@ -120,7 +120,9 @@ let newlog: Log = (message, userId = "测试") => {
     console.log(time, message, userId)
 }
 
-
+type IConfig = {
+    [key: string]: string
+}
 
 /*******************************************************************************************/
 //4.1.8 上下文类型推导
