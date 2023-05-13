@@ -121,6 +121,7 @@ let newlog: Log = (message, userId = "测试") => {
 }
 
 type IConfig = {
+    name?: string;
     [key: string]: string
 }
 
